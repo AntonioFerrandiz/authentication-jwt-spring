@@ -8,6 +8,6 @@ public class ResourceNotFoundException extends RuntimeException{
         super(String.format("User with id %s doesn't exist", id));
     }
     public ResourceNotFoundException(){
-        super("El usuario no existe / Credenciales invalidas.");
+        super("Invalid credentials.");
     }
 }
